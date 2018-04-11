@@ -1,22 +1,21 @@
 package com.wildcdlolo.shapes;
 
-public class Square implements Shape {
-    private int side;
+public class Square extends Rectangle {
 
     public Square(int side){
-        this.side = side;
+        super(side, side);
     }
 
     public double perimeter() {
-        return 4 * side;
+        return 2* (width + height);
     }
 
     public double area() {
-        return side * side;
+        return width * height;
     }
 
     @Override
-    public void draw(Shape shapeToDraw) {
+    public void draw() {
         // Not implemented
     }
 }

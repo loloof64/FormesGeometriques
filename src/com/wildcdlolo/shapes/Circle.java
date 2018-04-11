@@ -16,7 +16,7 @@ public class Circle implements Shape {
     }
 
     @Override
-    public void draw(Shape shapeToDraw) {
+    public void draw() {
         // Not implemented
     }
 }

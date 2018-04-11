@@ -1,7 +1,7 @@
 package com.wildcdlolo.shapes;
 
 public class Rectangle implements Shape {
-    private final int width, height;
+    protected final int width, height;
 
     public Rectangle(int width, int height){
         this.width = width;
@@ -17,7 +17,7 @@ public class Rectangle implements Shape {
     }
 
     @Override
-    public void draw(Shape shapeToDraw) {
+    public void draw() {
         // Not implemented
     }
 }
