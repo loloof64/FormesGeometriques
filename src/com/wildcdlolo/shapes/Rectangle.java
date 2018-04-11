@@ -15,4 +15,9 @@ public class Rectangle implements Shape {
     public double area() {
         return width * height;
     }
+
+    @Override
+    public void draw(Shape shapeToDraw) {
+        // Not implemented
+    }
 }

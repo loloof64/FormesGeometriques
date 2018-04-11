@@ -14,4 +14,9 @@ public class Circle implements Shape {
     public double area() {
         return Math.PI * rayon * rayon;
     }
+
+    @Override
+    public void draw(Shape shapeToDraw) {
+        // Not implemented
+    }
 }
