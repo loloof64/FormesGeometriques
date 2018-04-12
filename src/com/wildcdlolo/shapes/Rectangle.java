@@ -1,6 +1,6 @@
 package com.wildcdlolo.shapes;
 
-public class Rectangle implements Shape {
+public class Rectangle extends Diamond {
     protected final int width, height;
 
     public Rectangle(int width, int height){
